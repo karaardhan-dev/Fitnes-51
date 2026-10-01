@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GYM 51 — Forge Your Strongest Self</title>
+  <meta name="description" content="GYM 51 adalah pusat kebugaran modern dengan peralatan premium, personal trainer tersertifikasi, dan program latihan untuk semua level. Bergabunglah sekarang!" />
+
+  <!-- Favicon (inline SVG as data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80'>🏋️</text></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo">GYM <span>51</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">Tentang</a>
+        <a href="#facilities">Fasilitas</a>
+        <a href="#programs">Program</a>
+        <a href="#pricing">Membership</a>
+        <a href="#trainers">Trainer</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header-cta-wrap">
+        <a href="#pricing" class="btn btn-primary header-cta">Join Now</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about">Tentang</a>
+    <a href="#facilities">Fasilitas</a>
+    <a href="#programs">Program</a>
+    <a href="#pricing">Membership</a>
+    <a href="#trainers">Trainer</a>
+    <a href="#faq">FAQ</a>
+    <a href="#pricing" class="btn btn-primary" style="margin-top:1rem;">Join Now</a>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/images/gym-building.png" alt="Gedung GYM 51" loading="eager" />
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Now Open — Pendaftaran Dibuka
+      </div>
+
+      <h1>FORGE YOUR<br><span class="accent">STRONGEST</span> SELF</h1>
+
+      <p class="hero-desc">
+        Pusat kebugaran modern dengan peralatan premium, trainer tersertifikasi, dan atmosfer yang membakar semangat latihanmu setiap hari.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#pricing" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+          Lihat Paket Membership
+        </a>
+        <a href="#" class="btn btn-outline" data-wa-msg="Halo GYM 51, saya ingin mengklaim Free Trial Pass. Mohon info selengkapnya!">
+          💬 Chat CS — Free Pass
+        </a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div class="stat-item">
+          <div class="stat-number" data-count="50" data-suffix="+">0</div>
+          <div class="stat-label">Alat Fitness Modern</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="10" data-suffix="+">0</div>
+          <div class="stat-label">Certified Trainers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="1500" data-suffix="+">0</div>
+          <div class="stat-label">Member Aktif</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">4.9 ★</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <span class="section-label">Tentang Kami</span>
+          <h2 class="section-title">Lebih Dari Sekadar Tempat Latihan</h2>
+          <p>
+            GYM 51 hadir sebagai destinasi kebugaran terdepan yang menggabungkan peralatan premium kelas dunia dengan bimbingan personal trainer berpengalaman. Kami percaya setiap individu memiliki potensi untuk menjadi versi terbaik dirinya.
+          </p>
+          <p>
+            Dengan suasana yang modern, komunitas yang suportif, dan program latihan yang terstruktur — kami siap menemani perjalanan transformasi kebugaranmu dari hari pertama.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="icon">⚡</div>
+              <span>Peralatan Premium</span>
+            </div>
+            <div class="about-feature">
+              <div class="icon">🎯</div>
+              <span>Program Terstruktur</span>
+            </div>
+            <div class="about-feature">
+              <div class="icon">🏆</div>
+              <span>Trainer Tersertifikasi</span>
+            </div>
+            <div class="about-feature">
+              <div class="icon">🤝</div>
+              <span>Komunitas Suportif</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="assets/images/gym-interior.jpg" alt="Interior Cardio Area GYM 51" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FACILITIES ========== -->
+  <section class="section" id="facilities" style="background:var(--clr-bg-alt);">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" style="justify-content:center;">Fasilitas</span>
+        <h2 class="section-title">Area & Peralatan Lengkap</h2>
+        <p class="section-subtitle mx-auto">Setiap zona dirancang untuk mendukung berbagai tipe latihan — dari strength training hingga cardio dan functional movement.</p>
+      </div>
+
+      <div class="facilities-grid">
+        <div class="facility-card reveal">
+          <div class="facility-icon">🏋️</div>
+          <h3>Free Weight & Dumbbell Area</h3>
+          <p>Koleksi lengkap dumbbell dari 2kg hingga 50kg+, barbell Olympic, dan flat/incline/decline bench premium.</p>
+        </div>
+        <div class="facility-card reveal">
+          <div class="facility-icon">🏃</div>
+          <h3>Cardio Theater</h3>
+          <p>Treadmill komersial, elliptical, rowing machine, dan stairmaster dengan layar entertainment di setiap unit.</p>
+        </div>
+        <div class="facility-card reveal">
+          <div class="facility-icon">⚙️</div>
+          <h3>Machine & Cable Zone</h3>
+          <p>Plate-loaded dan selectorized machines untuk isolasi otot lengkap — chest, back, shoulder, legs, dan arms.</p>
+        </div>
+        <div class="facility-card reveal">
+          <div class="facility-icon">🔥</div>
+          <h3>Functional & Stretching</h3>
+          <p>Kettlebells, battle ropes, resistance bands, pull-up rigs, dan area stretching dengan matras premium.</p>
+        </div>
+        <div class="facility-card reveal">
+          <div class="facility-icon">🔒</div>
+          <h3>Locker Room & Shower</h3>
+          <p>Loker personal yang aman, kamar mandi dengan air panas, pengering rambut, dan handuk bersih tersedia.</p>
+        </div>
+        <div class="facility-card reveal">
+          <div class="facility-icon">🥤</div>
+          <h3>Supplement & Refreshment</h3>
+          <p>Bar minuman sehat dengan whey protein, BCAA, pre-workout, air mineral, dan healthy snack pilihan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROGRAMS ========== -->
+  <section class="section" id="programs">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Program Latihan</span>
+        <h2 class="section-title">Pilih Program Sesuai Tujuanmu</h2>
+        <p class="section-subtitle">Setiap program dirancang oleh trainer bersertifikasi dan disesuaikan dengan tingkat kebugaran serta target pribadimu.</p>
+      </div>
+
+      <div class="programs-grid">
+        <div class="program-card reveal">
+          <span class="program-number">01</span>
+          <h3>Strength & Muscle Hypertrophy</h3>
+          <p>Program pembentukan massa otot dan kekuatan dengan metode progressive overload. Cocok untuk pemula hingga advanced lifter yang ingin meningkatkan volume otot secara optimal.</p>
+          <a href="#" class="btn btn-outline btn-sm" data-wa-msg="Halo GYM 51, saya tertarik dengan program Strength & Muscle Hypertrophy. Mohon info jadwal dan biayanya.">Tanya Selengkapnya →</a>
+        </div>
+        <div class="program-card reveal">
+          <span class="program-number">02</span>
+          <h3>Fat Loss & High-Intensity Bootcamp</h3>
+          <p>Latihan kardio dan HIIT berenergi tinggi untuk pembakaran kalori maksimal. Kombinasi circuit training dan metabolic conditioning yang efektif menurunkan lemak tubuh.</p>
+          <a href="#" class="btn btn-outline btn-sm" data-wa-msg="Halo GYM 51, saya tertarik dengan program Fat Loss & HIIT Bootcamp. Mohon info jadwal dan biayanya.">Tanya Selengkapnya →</a>
+        </div>
+        <div class="program-card reveal">
+          <span class="program-number">03</span>
+          <h3>Functional & Mobility Training</h3>
+          <p>Meningkatkan fleksibilitas, keseimbangan, dan ketahanan tubuh dalam gerakan sehari-hari. Ideal untuk recovery dan pencegahan cedera olahraga.</p>
+          <a href="#" class="btn btn-outline btn-sm" data-wa-msg="Halo GYM 51, saya tertarik dengan program Functional & Mobility Training. Mohon info jadwal dan biayanya.">Tanya Selengkapnya →</a>
+        </div>
+        <div class="program-card reveal">
+          <span class="program-number">04</span>
+          <h3>1-on-1 Personal Coaching</h3>
+          <p>Pendampingan personal trainer secara privat dan eksklusif. Termasuk meal plan, tracking progress mingguan, dan program latihan yang 100% disesuaikan tujuanmu.</p>
+          <a href="#" class="btn btn-outline btn-sm" data-wa-msg="Halo GYM 51, saya tertarik dengan program 1-on-1 Personal Coaching. Mohon info jadwal dan biayanya.">Tanya Selengkapnya →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="section" id="pricing" style="background:var(--clr-bg-alt);">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" style="justify-content:center;">Membership</span>
+        <h2 class="section-title">Pilih Paket yang Pas Buatmu</h2>
+        <p class="section-subtitle mx-auto">Investasi terbaik adalah investasi untuk kesehatanmu. Semua paket termasuk akses penuh ke seluruh fasilitas GYM 51.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Daily Pass -->
+        <div class="pricing-card reveal">
+          <div class="pricing-name">Daily Pass</div>
+          <div class="pricing-price"><span class="currency">Rp</span>25K</div>
+          <div class="pricing-period">per kunjungan</div>
+          <ul class="pricing-features">
+            <li>Akses 1 hari penuh</li>
+            <li>Semua area & peralatan</li>
+            <li>Loker & shower</li>
+          </ul>
+          <a href="#" class="btn btn-outline" data-wa-msg="Halo GYM 51, saya tertarik untuk membeli Daily Pass (Rp 50.000/kunjungan). Mohon info prosedurnya.">Pilih Paket Ini</a>
+        </div>
+
+        <!-- Monthly -->
+        <div class="pricing-card reveal">
+          <div class="pricing-name">Monthly</div>
+          <div class="pricing-price"><span class="currency">Rp</span>130K</div>
+          <div class="pricing-period">per bulan</div>
+          <ul class="pricing-features">
+            <li>Akses unlimited 30 hari</li>
+            <li>Semua area & peralatan</li>
+            <li>Loker & shower</li>
+            <li>1x body assessment gratis</li>
+            <li>Akses kelas grup</li>
+          </ul>
+          <a href="#" class="btn btn-outline" data-wa-msg="Halo GYM 51, saya tertarik mendaftar Paket Monthly (Rp 350.000/bulan). Mohon info prosedur pendaftarannya.">Pilih Paket Ini</a>
+        </div>
+
+        <!-- Quarterly — Popular -->
+        <div class="pricing-card popular reveal">
+          <div class="popular-badge">🔥 Best Value</div>
+          <div class="pricing-name">Quarterly</div>
+          <div class="pricing-price"><span class="currency">Rp</span>900K</div>
+          <div class="pricing-period">per 3 bulan</div>
+          <ul class="pricing-features">
+            <li>Akses unlimited 90 hari</li>
+            <li>Semua area & peralatan</li>
+            <li>Loker & shower</li>
+            <li>3x body assessment</li>
+            <li>Akses semua kelas grup</li>
+            <li>Free shaker bottle</li>
+            <li>1x konsultasi nutrisi</li>
+          </ul>
+          <a href="#" class="btn btn-primary" data-wa-msg="Halo GYM 51, saya tertarik mendaftar Paket Quarterly / 3 Bulan (Rp 900.000). Mohon info prosedur pendaftarannya.">Pilih Paket Ini</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRAINERS ========== -->
+  <section class="section" id="trainers">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" style="justify-content:center;">Tim Trainer</span>
+        <h2 class="section-title">Personal Trainer Tersertifikasi</h2>
+        <p class="section-subtitle mx-auto">Tim profesional kami siap membimbing latihanmu dengan metode yang aman, efektif, dan terukur.</p>
+      </div>
+
+      <div class="trainers-grid">
+        <div class="trainer-card reveal">
+          <div class="trainer-image">
+            <img src="assets/images/trainer-1.jpg" alt="Coach Ardi — Head Trainer GYM 51" loading="lazy" />
+          </div>
+          <div class="trainer-info">
+            <h3>Coach Ardi Pratama</h3>
+            <div class="trainer-specialty">Strength & Bodybuilding</div>
+            <div class="trainer-cert">Sertifikasi APKI, NASM-CPT</div>
+            <a href="#" class="btn btn-wa btn-sm" data-wa-msg="Halo GYM 51, saya ingin konsultasi dengan Coach Ardi Pratama mengenai program Strength & Bodybuilding.">
+              💬 Konsultasi Coach Ardi
+            </a>
+          </div>
+        </div>
+        <div class="trainer-card reveal">
+          <div class="trainer-image">
+            <img src="assets/images/trainer-2.jpg" alt="Coach Rina — Functional & Yoga Trainer" loading="lazy" />
+          </div>
+          <div class="trainer-info">
+            <h3>Coach Rina Kusuma</h3>
+            <div class="trainer-specialty">Fat Loss & Functional Training</div>
+            <div class="trainer-cert">Sertifikasi ACE-CPT, RYT-200 Yoga</div>
+            <a href="#" class="btn btn-wa btn-sm" data-wa-msg="Halo GYM 51, saya ingin konsultasi dengan Coach Rina Kusuma mengenai program Fat Loss & Functional Training.">
+              💬 Konsultasi Coach Rina
+            </a>
+          </div>
+        </div>
+        <div class="trainer-card reveal">
+          <div class="trainer-image">
+            <img src="assets/images/trainer-3.jpg" alt="Coach Dimas — HIIT & Combat Trainer" loading="lazy" />
+          </div>
+          <div class="trainer-info">
+            <h3>Coach Dimas Saputra</h3>
+            <div class="trainer-specialty">HIIT & Posture Rehabilitation</div>
+            <div class="trainer-cert">Sertifikasi ISSA-CPT, FMS Level 2</div>
+            <a href="#" class="btn btn-wa btn-sm" data-wa-msg="Halo GYM 51, saya ingin konsultasi dengan Coach Dimas Saputra mengenai program HIIT & Posture Rehabilitation.">
+              💬 Konsultasi Coach Dimas
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section" id="testimonials" style="background:var(--clr-bg-alt);">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" style="justify-content:center;">Testimoni</span>
+        <h2 class="section-title">Kata Mereka Tentang GYM 51</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>"Awalnya saya takut masuk gym, tapi suasana di GYM 51 sangat ramah untuk pemula. Coach Rina membimbing saya dari nol. Dalam 3 bulan, berat badan turun 8kg!"</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AS</div>
+            <div class="testimonial-meta">
+              <strong>Anisa Safitri</strong>
+              <span>Member sejak 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>"Peralatan lengkap, bersih, dan modern. Area free weight-nya luas banget. Paling suka latihan sore di sini karena vibes-nya beda — bikin semangat!"</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RH</div>
+            <div class="testimonial-meta">
+              <strong>Rizky Hakim</strong>
+              <span>Member sejak 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>"Personal coaching sama Coach Ardi benar-benar worth it. Program-nya detail, ada meal plan, dan selalu dipantau perkembangannya setiap minggu."</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">FN</div>
+            <div class="testimonial-meta">
+              <strong>Fajar Nugroho</strong>
+              <span>Member sejak 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" style="justify-content:center;">FAQ</span>
+        <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Apakah pemula dipandu saat pertama kali latihan?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Tentu! Setiap member baru akan mendapat sesi orientasi gratis bersama trainer kami. Kami akan menjelaskan cara menggunakan setiap alat, menyusun program awal, dan memastikan teknik gerakanmu aman sejak hari pertama.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Apa saja yang perlu dibawa saat pertama kali latihan?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Cukup bawa sepatu olahraga, pakaian ganti, dan botol minum. Handuk bersih, loker, dan shower sudah tersedia di GYM 51. Jika kamu lupa membawa sesuatu, kami juga menyediakan perlengkapan dasar di area resepsionis.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Apakah tersedia tempat parkir motor dan mobil?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Ya, tersedia area parkir luas untuk motor dan mobil yang aman dan terawasi. Parkir gratis untuk seluruh member GYM 51 tanpa batasan waktu selama jam operasional.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Metode pembayaran apa saja yang diterima?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Kami menerima pembayaran tunai, transfer bank (BCA, BNI, Mandiri, BRI), QRIS (GoPay, OVO, DANA, ShopeePay, LinkAja), dan kartu debit/kredit. Untuk kemudahan, kami juga menerima pembayaran melalui cicilan 0% untuk paket tertentu.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Apakah bisa mengajak teman yang belum jadi member?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Bisa! Temanmu bisa datang sebagai tamu harian dengan membeli Daily Pass (Rp 50.000). Untuk member Annual VIP, kamu mendapat 1 Guest Pass gratis setiap bulan untuk mengajak teman berlatih bersama.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BANNER ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Siap Memulai Perjalanan Transformasimu?</h2>
+        <p>Jangan tunda lagi. Ribuan orang sudah memulai — sekarang giliranmu. Hubungi kami sekarang dan dapatkan Free Trial Pass!</p>
+        <a href="#" class="btn" data-wa-msg="Halo GYM 51, saya ingin mendaftar dan mengklaim Free Trial Pass. Mohon info selengkapnya!">
+          💬 Chat Sekarang — Free Trial
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOCATION MAP ========== -->
+  <section class="section" id="location">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" style="justify-content:center;">Lokasi</span>
+        <h2 class="section-title">Temukan Kami</h2>
+        <p class="section-subtitle mx-auto">Jl. Camat Gabun No. 48, RT.5/RW.8, Lenteng Agung, Kec. Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12610</p>
+        <div style="margin-top: 1.25rem;">
+          <a href="https://maps.app.goo.gl/ciNxdvcLvmUuTsMx9" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+            📍 Buka di Google Maps →
+          </a>
+        </div>
+      </div>
+      <div class="map-container reveal">
+        <iframe 
+          src="https://maps.google.com/maps?q=-6.3384679,106.83754&hl=id&z=16&output=embed" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Lokasi GYM 51 di Google Maps">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">GYM <span>51</span></div>
+          <p>Pusat kebugaran modern untuk semua level — dari pemula hingga atlet. Bergabunglah dengan komunitas terkuat di kota!</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi</h4>
+          <a href="#about">Tentang Kami</a>
+          <a href="#facilities">Fasilitas</a>
+          <a href="#programs">Program Latihan</a>
+          <a href="#pricing">Membership</a>
+          <a href="#trainers">Tim Trainer</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Kontak</h4>
+          <a href="tel:+6282124558775">+62 821-2455-8775</a>
+          <a href="https://maps.app.goo.gl/ciNxdvcLvmUuTsMx9" target="_blank" rel="noopener noreferrer">📍 Buka Google Maps</a>
+          <a href="mailto:info@gym51.id">info@gym51.id</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Jam Operasional</h4>
+          <div class="footer-hours">
+            <div class="hour-row">
+              <span class="day">Senin – Jumat</span>
+              <span class="time">06:00 – 22:00</span>
+            </div>
+            <div class="hour-row">
+              <span class="day">Sabtu</span>
+              <span class="time">06:00 – 22:00</span>
+            </div>
+            <div class="hour-row">
+              <span class="day">Minggu & Libur</span>
+              <span class="time">07:00 – 20:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 GYM 51. All rights reserved.</p>
+        <p>Designed with 💚 for fitness enthusiasts.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING WHATSAPP ========== -->
+  <a href="#" class="floating-wa" id="floatingWa" aria-label="Chat via WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
